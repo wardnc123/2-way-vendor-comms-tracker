@@ -14,7 +14,7 @@
           "milestones": [
             {
               "name": "BRD",
-              "status": "not-started",
+              "status": "in-progress",
               "date": ""
             },
             {
@@ -998,7 +998,7 @@
   ],
   "weeklyUpdates": [],
   "settings": {
-    "lastUpdated": "2026-07-29T17:09:05.389Z",
+    "lastUpdated": "2026-07-29T17:09:11.285Z",
     "programStartDate": "2026-05-01"
   }
 }
