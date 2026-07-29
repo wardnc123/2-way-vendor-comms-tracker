@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-Way Vendor Communications — Program Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="header-left">
+                <h1>2-Way Vendor Communications</h1>
+                <span class="subtitle">Program Tracker</span>
+            </div>
+            <div class="header-right">
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="overview">Overview</button>
+                    <button class="view-btn" data-view="workstreams">Workstreams</button>
+                    <button class="view-btn" data-view="target-model">Target Model</button>
+                    <button class="view-btn" data-view="weekly">Weekly Updates</button>
+                    <button class="view-btn" data-view="decisions">Decisions</button>
+                    <button class="view-btn" data-view="leadership">Leadership View</button>
+                </div>
+            </div>
+        </header>
+        <main id="main-content"></main>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
