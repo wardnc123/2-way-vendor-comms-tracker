@@ -1,0 +1,1004 @@
+{
+  "workstreams": [
+    {
+      "id": "aero-app",
+      "name": "AERO App (Short-term Delivery)",
+      "owner": "Isha",
+      "description": "Desktop-hosted app where user logs in, drops email, and app executes task using their credentials/API access.",
+      "ragStatus": "amber",
+      "useCases": [
+        {
+          "id": "aero-cau",
+          "name": "Catalog Attribute Update",
+          "status": "in-progress",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "in-progress",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "Demoed successfully. Can understand intent, ask follow-up questions, take automated downstream actions."
+        },
+        {
+          "id": "aero-po-shipment",
+          "name": "PO Shipment Window Update",
+          "status": "in-progress",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "in-progress",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "aero-embargo",
+          "name": "Update Embargo",
+          "status": "in-progress",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "in-progress",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "aero-theia",
+          "name": "Theia Accuracy Check",
+          "status": "in-progress",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "in-progress",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "arts-team",
+      "name": "ARTS Team (Long-term Automated Pipeline)",
+      "owner": "Shrijan",
+      "description": "Automated pipeline: email forwarded → AI reads → connects to right tool → resolves task. No human in the loop for execution.",
+      "ragStatus": "amber",
+      "useCases": [
+        {
+          "id": "arts-title",
+          "name": "Title Updates (MVP)",
+          "status": "in-progress",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "BRD v2 complete (29/05/2026). Sapien integration confirmation pending."
+        },
+        {
+          "id": "arts-bullet-points",
+          "name": "Bullet Point Updates",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "Fast-follow after Title Updates MVP validated."
+        },
+        {
+          "id": "arts-images",
+          "name": "Image Updates",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "Part of 8 Sapien-supported workflows expansion."
+        },
+        {
+          "id": "arts-descriptions",
+          "name": "Description Updates",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "Part of 8 Sapien-supported workflows expansion."
+        },
+        {
+          "id": "arts-brand-code",
+          "name": "Brand Code Updates",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "Part of 8 Sapien-supported workflows expansion."
+        },
+        {
+          "id": "arts-aplus",
+          "name": "A+ Content Updates",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "Part of 8 Sapien-supported workflows expansion."
+        },
+        {
+          "id": "arts-other-cau-1",
+          "name": "Other CAU Workflow 1",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "TBD - define after Sapien launches."
+        },
+        {
+          "id": "arts-other-cau-2",
+          "name": "Other CAU Workflow 2",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "TBD - define after Sapien launches."
+        },
+        {
+          "id": "arts-other-cau-3",
+          "name": "Other CAU Workflow 3",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "BRD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "HLD",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Development",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Internal Testing",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "UAT",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Launch",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "notes": "TBD - define after Sapien launches."
+        }
+      ]
+    },
+    {
+      "id": "pipeline",
+      "name": "Pipeline & Strategy",
+      "owner": "Bosco",
+      "description": "Exploratory: i) Can we remove humans from the loop? ii) Build standalone agent vs. integrate with existing agents? Track integrations and partner alignment.",
+      "ragStatus": "grey",
+      "integrations": [
+        {
+          "id": "pipe-sapien",
+          "name": "Sapien Integration",
+          "partner": "IDQ/Catalog Sapien Team",
+          "status": "in-progress",
+          "milestones": [
+            {
+              "name": "Initial Contact",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "BRD Shared",
+              "status": "in-progress",
+              "date": ""
+            },
+            {
+              "name": "API Access Confirmed",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Design",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Built",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Tested",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "humanInLoop": "TBD",
+          "notes": "Sapien team initially resistant. Escalated to Nathalie. Nick sharing BRD."
+        },
+        {
+          "id": "pipe-aero",
+          "name": "AERO Orchestration",
+          "partner": "AERO Team",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "Initial Contact",
+              "status": "complete",
+              "date": ""
+            },
+            {
+              "name": "Architecture Workshop",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Decision: Desktop vs Remote",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Design",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Built",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Tested",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "humanInLoop": "Yes (currently)",
+          "notes": "Nick to hold meeting. 1-way vs 2-way door decision pending."
+        },
+        {
+          "id": "pipe-salesforce",
+          "name": "Salesforce Integration",
+          "partner": "Salesforce Team",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "Initial Exploration",
+              "status": "in-progress",
+              "date": ""
+            },
+            {
+              "name": "Feasibility Assessment",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Decision Paper",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Leadership Approval",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Design",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Built",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "humanInLoop": "No (removes VC forwarding)",
+          "notes": "SF team resistant to small-scale integrations. OP1 2027 Big Bet."
+        },
+        {
+          "id": "pipe-paragon",
+          "name": "Paragon Integration",
+          "partner": "Paragon Team / Michael Edwards",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "Initial Exploration",
+              "status": "in-progress",
+              "date": ""
+            },
+            {
+              "name": "Feasibility Assessment",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Decision Paper",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Leadership Approval",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Design",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Integration Built",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "humanInLoop": "TBD",
+          "notes": "Under investigation as alternative channel."
+        },
+        {
+          "id": "pipe-hitl",
+          "name": "Human-in-the-Loop Decision",
+          "partner": "Multiple Teams",
+          "status": "in-progress",
+          "milestones": [
+            {
+              "name": "Map teams requiring HITL",
+              "status": "in-progress",
+              "date": ""
+            },
+            {
+              "name": "Document constraints per team",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Propose alternative models",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Decision Paper",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Leadership Decision",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "humanInLoop": "N/A - this IS the decision",
+          "notes": "Some teams have said they will not support removing humans from the loop."
+        },
+        {
+          "id": "pipe-standalone-vs-integrate",
+          "name": "Build vs. Integrate Decision",
+          "partner": "Internal",
+          "status": "not-started",
+          "milestones": [
+            {
+              "name": "Map existing agents",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Gap analysis",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Cost/benefit of each approach",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Decision Paper",
+              "status": "not-started",
+              "date": ""
+            },
+            {
+              "name": "Leadership Decision",
+              "status": "not-started",
+              "date": ""
+            }
+          ],
+          "humanInLoop": "N/A",
+          "notes": "Standalone 2-way comms agent vs. building on top of existing agents."
+        }
+      ]
+    }
+  ],
+  "targetModel": {
+    "capabilities": [
+      {
+        "id": "cap-1",
+        "name": "Email Ingestion",
+        "description": "Ability to programmatically read incoming vendor emails from a shared queue/inbox",
+        "status": "not-started"
+      },
+      {
+        "id": "cap-2",
+        "name": "Intent Classification",
+        "description": "Ability to understand the intent of the email (e.g., title update, bullet point update, CAU request)",
+        "status": "not-started"
+      },
+      {
+        "id": "cap-3",
+        "name": "Completeness Validation",
+        "description": "Ability to check whether all required information is present (ASIN, title text, etc.) and identify what is missing",
+        "status": "not-started"
+      },
+      {
+        "id": "cap-4",
+        "name": "Vendor Authentication",
+        "description": "Ability to verify the vendor is authorised to modify the ASIN (vendor ID matching in catalogue system)",
+        "status": "not-started"
+      },
+      {
+        "id": "cap-5",
+        "name": "Task Creation",
+        "description": "Ability to create a structured task/payload from the extracted entities (ASIN, title, vendor ID, etc.)",
+        "status": "not-started"
+      },
+      {
+        "id": "cap-6",
+        "name": "Execution Routing",
+        "description": "Ability to send the task to the correct execution agent (Sapien, AERO, or other)",
+        "status": "not-started"
+      },
+      {
+        "id": "cap-7",
+        "name": "Result Validation",
+        "description": "Ability to validate the execution agent's results (success/failure, correctness)",
+        "status": "not-started"
+      },
+      {
+        "id": "cap-8",
+        "name": "Response Communication",
+        "description": "Ability to send an email back to confirm completion or request more information",
+        "status": "not-started"
+      },
+      {
+        "id": "cap-9",
+        "name": "Escalation / Fallback Handling",
+        "description": "Ability to gracefully hand off to a human via Salesforce task with full context when any step fails (low confidence, missing info, system error)",
+        "status": "not-started"
+      },
+      {
+        "id": "cap-10",
+        "name": "Audit Logging",
+        "description": "Every processing attempt logged with full context: intent, entities, actions taken, outcomes, and errors for debugging and trust",
+        "status": "not-started"
+      }
+    ],
+    "workstreamCoverage": {
+      "aero-app": {
+        "cap-1": {
+          "met": false,
+          "notes": "User manually drops email into app — no automated email reading"
+        },
+        "cap-2": {
+          "met": true,
+          "notes": "App can understand intent from pasted email content"
+        },
+        "cap-3": {
+          "met": false,
+          "notes": "No automated completeness check — user validates manually"
+        },
+        "cap-4": {
+          "met": false,
+          "notes": "No vendor ownership verification — relies on user credentials"
+        },
+        "cap-5": {
+          "met": true,
+          "notes": "App creates structured task from extracted entities"
+        },
+        "cap-6": {
+          "met": true,
+          "notes": "App routes to downstream execution (uses user credentials)"
+        },
+        "cap-7": {
+          "met": false,
+          "notes": "No automated validation of results yet"
+        },
+        "cap-8": {
+          "met": false,
+          "notes": "No automated email response — user communicates manually"
+        },
+        "cap-9": {
+          "met": false,
+          "notes": "No fallback mechanism — user handles failures manually"
+        },
+        "cap-10": {
+          "met": false,
+          "notes": "No audit logging implemented"
+        }
+      },
+      "arts-team": {
+        "cap-1": {
+          "met": false,
+          "notes": "VC forwards email to dedicated inbox — not fully automated yet"
+        },
+        "cap-2": {
+          "met": true,
+          "notes": "Agent-side LLM classifies intent (Title Updates MVP)"
+        },
+        "cap-3": {
+          "met": true,
+          "notes": "System validates ASIN present, title text present, char limits"
+        },
+        "cap-4": {
+          "met": false,
+          "notes": "Designed in BRD (FR-15) but not yet built"
+        },
+        "cap-5": {
+          "met": true,
+          "notes": "LLM extracts entities and creates structured payload"
+        },
+        "cap-6": {
+          "met": false,
+          "notes": "Sapien integration pending confirmation"
+        },
+        "cap-7": {
+          "met": false,
+          "notes": "Depends on Sapien callback — not built yet"
+        },
+        "cap-8": {
+          "met": false,
+          "notes": "Two-email pattern designed but not implemented yet"
+        },
+        "cap-9": {
+          "met": false,
+          "notes": "Salesforce task fallback designed but not implemented"
+        },
+        "cap-10": {
+          "met": false,
+          "notes": "Audit trail requirement defined (FR-14) but not built"
+        }
+      },
+      "pipeline": {
+        "cap-1": {
+          "met": false,
+          "notes": "Exploring Salesforce, Paragon, AERO desktop as ingestion channels"
+        },
+        "cap-2": {
+          "met": false,
+          "notes": "Dependent on ARTS team delivery"
+        },
+        "cap-3": {
+          "met": false,
+          "notes": "Dependent on ARTS team delivery"
+        },
+        "cap-4": {
+          "met": false,
+          "notes": "Not yet defined"
+        },
+        "cap-5": {
+          "met": false,
+          "notes": "Dependent on ARTS team delivery"
+        },
+        "cap-6": {
+          "met": false,
+          "notes": "AERO orchestration workshop pending"
+        },
+        "cap-7": {
+          "met": false,
+          "notes": "Not yet defined"
+        },
+        "cap-8": {
+          "met": false,
+          "notes": "Not yet defined"
+        },
+        "cap-9": {
+          "met": false,
+          "notes": "Not yet defined"
+        },
+        "cap-10": {
+          "met": false,
+          "notes": "Not yet defined"
+        }
+      }
+    }
+  },
+  "decisions": [
+    {
+      "id": "dec-1",
+      "title": "AERO Desktop App vs. Remote Agent Architecture",
+      "description": "If AERO desktop app is selected, the entire architecture changes (agent on user laptop vs. remote agent). Is this a 1-way or 2-way door decision?",
+      "owner": "Nick",
+      "dueDate": "",
+      "status": "open",
+      "docLink": "",
+      "resolution": ""
+    },
+    {
+      "id": "dec-2",
+      "title": "Human-in-the-Loop Requirement",
+      "description": "Some teams have stated they will not support removing humans from the loop. We need to define an alternative model for these cases.",
+      "owner": "Bosco",
+      "dueDate": "",
+      "status": "open",
+      "docLink": "",
+      "resolution": ""
+    },
+    {
+      "id": "dec-3",
+      "title": "Standalone Agent vs. Integration with Existing Agents",
+      "description": "Should we build a standalone 2-way vendor communication agent or work directly with other teams to build on top of existing agents?",
+      "owner": "Bosco",
+      "dueDate": "",
+      "status": "open",
+      "docLink": "",
+      "resolution": ""
+    },
+    {
+      "id": "dec-4",
+      "title": "Ingestion Channel Selection",
+      "description": "Dedicated inbox + VC forwarding (selected for MVP), AERO Desktop App, Paragon, PEARL, or Salesforce integration. Need to confirm long-term path.",
+      "owner": "Nick",
+      "dueDate": "",
+      "status": "open",
+      "docLink": "",
+      "resolution": ""
+    },
+    {
+      "id": "dec-5",
+      "title": "Sapien Integration Confirmation",
+      "description": "IDQ/Catalog Sapien team needs to confirm that an attribute update execution agent will integrate with our tool. Currently resistant.",
+      "owner": "Nick / Nathalie",
+      "dueDate": "",
+      "status": "open",
+      "docLink": "",
+      "resolution": ""
+    }
+  ],
+  "weeklyUpdates": [],
+  "settings": {
+    "lastUpdated": "2026-07-29T17:09:05.389Z",
+    "programStartDate": "2026-05-01"
+  }
+}
